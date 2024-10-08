@@ -1,0 +1,37 @@
+// main 入口 主要用來引入 需要的 partials
+
+// RWD
+@import "./mixins/rwd";
+
+// 變數
+@import "./variables";
+
+// 繼承樣式
+$first-color: #2c232e;
+$second-color: #ecd5bb;
+$third-color: #875f593b;
+
+$font-primary: "Montserrat", sans-serif;
+$font-secondary: "Spectral", serif;
+
+body {
+	font-family: $font-primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-primary;
+	font-weight: 700;
+}
+
+p,
+span,
+a,
+li {
+	font-family: $font-primary;
+	font-weight: 400;
+}
